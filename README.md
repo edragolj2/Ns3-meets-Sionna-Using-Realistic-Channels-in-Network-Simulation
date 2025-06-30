@@ -15,3 +15,15 @@ Tradicionalni modeli u ns-3 simulatoru, kao što su Friisov model ili log-normal
 U radu predstavljen je softverski dodatak za ns-3 pod nazivom Ns3Sionna, koji omogućava realističnije simulacije bežičnih mreža korištenjem naprednog ray tracing modela za propagaciju signala.
 
 Autori rada integrisali su Sionna RT, biblioteku za ray tracing simulaciju elektromagnetnih talasa u trodimenzionalnom prostoru. Ova biblioteka omogućava detaljnu analizu načina na koji se signal reflektuje, raspršuje i apsorbuje u zavisnosti od materijala i geometrije prepreka u okruženju. Na osnovu izračunatih putanja talasa dobijaju se podaci o impulsnom odzivu kanala, koji se dalje koriste za izračunavanje frekvencijskog odziva kanala, gubitka jačine signala (path loss) i kašnjenja signala.
+
+## Arhitektura NS3Sionna
+
+
+
+*Konceptualna shema NS3Sionna sistema je prikazana na slici 1 :*
+
+<p align="center">
+<img src="Slike/arhitektura" ">
+<br>
+Slika 1: Arhitektura NS3Sionna
+</p>
