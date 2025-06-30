@@ -29,7 +29,7 @@ Slika 1: Arhitektura NS3Sionna
 </p>
 
 ## Indoor scenario
-ChatGPT said:
+
 Indoor scenarij prikazuje WiFi komunikaciju kroz dvoje otvorenih vrata između dvije sobe, pri čemu signal s pristupne tačke u lijevoj sobi mora proći kroz vrata i reflektovati se kako bi stigao do uređaja bez direktne vidljivosti, uz gubitke zbog refleksije i apsorpcije.
 
 *Konceptualna shema Indoor scenarija je prikazana na slici 1 :*
