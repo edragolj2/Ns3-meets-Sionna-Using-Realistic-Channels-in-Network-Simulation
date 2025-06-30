@@ -1,0 +1,46 @@
+clear all;
+close all;
+clc;
+
+% U?itaj koordinate iz datoteke
+data = load('txid_1_coor.txt');  % Pretpostavlja se da se datoteka nalazi u trenutnom direktoriju
+
+% Izdvoji X i Y koordinate
+x = data(:,1);
+y = data(:,2);
+
+% Po?etna pozicija (Tx ?vor)
+tx_x = 8.5;
+tx_y = 21;
+
+% Nacrtaj kretanje ta?ke
+figure;
+
+% Crvena zvjezdica za Tx
+plot(tx_x, tx_y, 'r*', 'MarkerSize', 12, 'LineWidth', 2);
+hold on;
+plot(x, y, '-o', 'LineWidth', 1.5);
+xlabel('X koordinata');
+ylabel('Y koordinata');
+title('Kretanje tacke (v=7 m/s)');
+xlim([-40 80]);   
+ylim([0 170]); 
+grid on;
+axis equal;  % Da se o?uva razmjera izme?u osi
+
+% U?itaj podatke iz .txt fajla
+data = load('snr_time_7.0.txt');
+
+% Razdvoji kolone
+time = data(:, 1);
+snr = data(:, 2);
+
+% Iscrtavanje grafa
+figure;
+plot(time, snr);
+xlabel('Vrijeme [s]');
+ylabel('SNR [dB]');
+title('SNR u funkciji vremena (v=7 m/s)');
+xlim([0 70]);   
+ylim([0 50]);   
+grid on;
