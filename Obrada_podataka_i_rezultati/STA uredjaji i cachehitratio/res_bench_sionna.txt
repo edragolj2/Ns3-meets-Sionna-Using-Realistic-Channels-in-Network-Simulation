@@ -1,0 +1,97 @@
+etftk-student
+Model name:                           Intel(R) Xeon(R) Silver 4310 CPU @ 2.10GHz
+Test stationary / high load
+[0/2] Re-checking globbed directories...
+ninja: no work to do.
+Performance test: 1 AP and N STAs with ns3sionna
+Config: ch 1 mob 0 speed 0 pktinterval 20 caching 1 env simple_room/simple_room.xml mode 3 submode 16
+Ns-3 client socket ready ...
+Ns3-sionna: cache hit ratio: 0.999657
+Ns3-sionna ZMQ socket closed.
+Finished simulation with 1 stations in 4.34277 sec
+
+Ns-3 client socket ready ...
+Ns3-sionna: cache hit ratio: 0.999849
+Ns3-sionna ZMQ socket closed.
+Finished simulation with 2 stations in 9.46357 sec
+
+Ns-3 client socket ready ...
+Ns3-sionna: cache hit ratio: 0.999919
+Ns3-sionna ZMQ socket closed.
+Finished simulation with 4 stations in 17.5415 sec
+
+Ns-3 client socket ready ...
+Ns3-sionna: cache hit ratio: 0.999958
+Ns3-sionna ZMQ socket closed.
+Finished simulation with 8 stations in 30.3254 sec
+
+Ns-3 client socket ready ...
+Ns3-sionna: cache hit ratio: 0.99998
+Ns3-sionna ZMQ socket closed.
+Finished simulation with 16 stations in 55.4714 sec
+
+Ns-3 client socket ready ...
+Ns3-sionna: cache hit ratio: 0.999991
+Ns3-sionna ZMQ socket closed.
+Finished simulation with 32 stations in 123.506 sec
+
+Test low mobility / low load
+[0/2] Re-checking globbed directories...
+ninja: no work to do.
+Performance test: 1 AP and N STAs with ns3sionna
+Config: ch 1 mob 1 speed 1 pktinterval 1000 caching 1 env simple_room/simple_room.xml mode 3 submode 16
+Ns-3 client socket ready ...
+Ns3-sionna: cache hit ratio: 0.817164
+Ns3-sionna ZMQ socket closed.
+Finished simulation with 1 stations in 202.073 sec
+
+Ns-3 client socket ready ...
+Ns3-sionna: cache hit ratio: 0.850829
+Ns3-sionna ZMQ socket closed.
+Finished simulation with 2 stations in 407.104 sec
+
+Ns-3 client socket ready ...
+Ns3-sionna: cache hit ratio: 0.934237
+Ns3-sionna ZMQ socket closed.
+Finished simulation with 4 stations in 445.59 sec
+
+Ns-3 client socket ready ...
+Ns3-sionna: cache hit ratio: 0.974351
+Ns3-sionna ZMQ socket closed.
+Finished simulation with 8 stations in 557.705 sec
+
+Ns-3 client socket ready ...
+Ns3-sionna: cache hit ratio: 0.988176
+Ns3-sionna ZMQ socket closed.
+Finished simulation with 16 stations in 868.609 sec
+
+Ns-3 client socket ready ...
+Ns3-sionna: cache hit ratio: 0.994554
+Ns3-sionna ZMQ socket closed.
+Finished simulation with 32 stations in 1635.74 sec
+
+Test high mobility / higher load
+[0/2] Re-checking globbed directories...
+ninja: no work to do.
+Performance test: 1 AP and N STAs with ns3sionna
+Config: ch 1 mob 1 speed 7 pktinterval 20 caching 1 env simple_room/simple_room.xml mode 3 submode 16
+Ns-3 client socket ready ...
+Ns3-sionna: cache hit ratio: 0.912835
+Ns3-sionna ZMQ socket closed.
+Finished simulation with 1 stations in 1073.19 sec
+
+Ns-3 client socket ready ...
+Ns3-sionna: cache hit ratio: 0.929248
+Ns3-sionna ZMQ socket closed.
+Finished simulation with 2 stations in 3396.12 sec
+
+Ns-3 client socket ready ...
+Ns3-sionna: cache hit ratio: 0.962057
+Ns3-sionna ZMQ socket closed.
+Finished simulation with 4 stations in 6379.69 sec
+
+Ns-3 client socket ready ...
+Ns3-sionna: cache hit ratio: 0.979833
+Ns3-sionna ZMQ socket closed.
+Finished simulation with 8 stations in 12424 sec
+

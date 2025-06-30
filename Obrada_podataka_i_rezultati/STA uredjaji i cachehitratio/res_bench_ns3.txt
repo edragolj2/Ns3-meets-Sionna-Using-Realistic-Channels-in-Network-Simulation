@@ -1,0 +1,59 @@
+etftk-student
+Model name:                           Intel(R) Xeon(R) Silver 4310 CPU @ 2.10GHz
+Test stationary / higher load
+[0/2] Re-checking globbed directories...
+ninja: no work to do.
+Performance test: 1 AP and N STAs with pure ns3
+Config: ch 1 mob 0 speed 0 pktinterval 20
+Finished simulation with 1 stations in 0.184638 sec
+
+Finished simulation with 2 stations in 0.363637 sec
+
+Finished simulation with 4 stations in 0.928327 sec
+
+Finished simulation with 8 stations in 2.15987 sec
+
+Finished simulation with 16 stations in 6.77118 sec
+
+Finished simulation with 32 stations in 28.6269 sec
+
+Finished simulation with 64 stations in 110.232 sec
+
+Test low mobility / low load
+[0/2] Re-checking globbed directories...
+ninja: no work to do.
+Performance test: 1 AP and N STAs with pure ns3
+Config: ch 1 mob 1 speed 1 pktinterval 1000
+Finished simulation with 1 stations in 0.0301096 sec
+
+Finished simulation with 2 stations in 0.0437423 sec
+
+Finished simulation with 4 stations in 0.0796382 sec
+
+Finished simulation with 8 stations in 0.166621 sec
+
+Finished simulation with 16 stations in 0.431623 sec
+
+Finished simulation with 32 stations in 1.29691 sec
+
+Finished simulation with 64 stations in 3.73634 sec
+
+Test high mobility / higher load
+[0/2] Re-checking globbed directories...
+ninja: no work to do.
+Performance test: 1 AP and N STAs with pure ns3
+Config: ch 1 mob 1 speed 7 pktinterval 20
+Finished simulation with 1 stations in 0.1815 sec
+
+Finished simulation with 2 stations in 0.362501 sec
+
+Finished simulation with 4 stations in 0.933267 sec
+
+Finished simulation with 8 stations in 2.75685 sec
+
+Finished simulation with 16 stations in 7.59414 sec
+
+Finished simulation with 32 stations in 26.417 sec
+
+Finished simulation with 64 stations in 106.204 sec
+
