@@ -54,10 +54,24 @@ Ovaj scenarij simulacije obuhvata jednu pristupnu tačku (AP) i jedan mobilni kl
 
 Iako simulacija traje 300 sekundi, u 70-oj sekundi dolazi do prekida zbog greške Sionna servera koja ukazuje na nemogućnost pronalaska propagacione putanje. Do toga dolazi kada se čvor nalazi izvan granica 3D scene ili preblizu drugom čvoru. U modelima sa mobilnošću, kao što je Random Walk, ova greška se najčešće javlja kada se čvor udalji izvan definisanog okruženja usljed nedostatka ograničenja kretanja. Iz ovog razloga, svi rezultati prikazani u nastavku prikupljeni su na intervalu 0 - 70 s.
 
+
+<p align="center">
+<img src="Slike/xyoutdoor_uporedni_prikaz.png" ">
+<br>
+Slika 5: Uporedni prikaz putanje kretanja STA uređaja za interval 0 - 70 s
+</p>
+
+
+<p align="center">
+<img src="Slike/outdoor_rxdistance_uporedni_prikaz.png" ">
+<br>
+Slika 6: Uporedni prikaz prijemne snage u funkciji udaljenosti za interval 0 - 70 s
+</p>
+
 <p align="center">
 <img src="Slike/outdoorrxovertime_uporedni_prikaz.jpg" ">
 <br>
-Slika 3: Outdoor scenario
+Slika 7: Uporedni prikaz prijemne snage u funkciji vremena za interval 0 - 70 s
 </p>
 
 ## Zaključak
