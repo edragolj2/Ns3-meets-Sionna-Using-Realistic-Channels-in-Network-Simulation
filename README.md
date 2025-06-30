@@ -25,14 +25,25 @@ Detaljne upute za integraciju ns-3 i Sionna dostupne su u [GitHub repozitoriju a
 
 ## Indoor scenario
 
-Indoor scenarij prikazuje WiFi komunikaciju kroz dvoje otvorenih vrata između dvije sobe, pri čemu signal s pristupne tačke u lijevoj sobi mora proći kroz vrata i reflektovati se kako bi stigao do uređaja bez direktne vidljivosti, uz gubitke zbog refleksije i apsorpcije.
+Ovaj scenarij obuhvata dvije sobe spojene otvorenim vratima. U takvom okruženju, WiFi signal koji šalje pristupna tačka (AP) smještena u lijevoj sobi mora prvo proći kroz vrata, a zatim se reflektovati od jednog ili više zidova u drugoj sobi kako bi stigao do klijentskog uređaja (STA) koji nema direktnu vidljivost (NLoS). Zbog toga signal često mora preći dužu putanju i pri tome značajno gubi energiju usljed višestrukih refleksija i apsorpcije. AP ima konstantnu poziciju, dok STA mijenja svoju poziciju u skladu sa Random Walk modelom. 
 
-*Konceptualna shema Indoor scenarija je prikazana na slici 1 :*
 
 <p align="center">
 <img src="Slike/indoor_Uporedni_prikaz.jpg" ">
 <br>
-Slika 2: Indoor scenario
+Slika 2: Uporedni prikaz putanje kretanja STA uređaja za interval 70 - 100s
+</p>
+
+<p align="center">
+<img src="Slike/rxoverdistance_uporedni_prikaz.jpg" ">
+<br>
+Slika 3: Uporedni prikaz prijemne snage u funkciji udaljenosti za interval 70 - 100s
+</p>
+
+<p align="center">
+<img src="Slike/rxovertime_uporedni_prikaz.jpg" ">
+<br>
+Slika 4: Uporedni prikaz prijemne snage u funkciji vremena za interval 70 - 100s
 </p>
 
 ## Outdoor scenario
