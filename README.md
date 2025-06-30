@@ -37,6 +37,15 @@ Indoor scenarij prikazuje WiFi komunikaciju kroz dvoje otvorenih vrata između d
 <p align="center">
 <img src="Slike/indoor_Uporedni_prikaz.jpg" ">
 <br>
-Slika 1: Indoor scenario
+Slika 2: Indoor scenario
 </p>
 
+## Outdoor scenario
+
+Outdoor scenarij prikazuje WiFi komunikaciju u realističnom urbanom okruženju oko crkve Frauenkirche u Minhenu, gdje se klijentski uređaj nasumično kreće, a pristupna tačka je statična. Signal se često reflektuje od zgrada zbog nedostatka direktne vidljivosti, što uzrokuje povećano kašnjenje i gubitke.
+
+<p align="center">
+<img src="Slike/" ">
+<br>
+Slika 3: Outdoor scenario
+</p>
