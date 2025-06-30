@@ -27,23 +27,25 @@ Detaljne upute za integraciju ns-3 i Sionna dostupne su u [GitHub repozitoriju a
 
 Ovaj scenarij obuhvata dvije sobe spojene otvorenim vratima. U takvom okruženju, WiFi signal koji šalje pristupna tačka (AP) smještena u lijevoj sobi mora prvo proći kroz vrata, a zatim se reflektovati od jednog ili više zidova u drugoj sobi kako bi stigao do klijentskog uređaja (STA) koji nema direktnu vidljivost (NLoS). Zbog toga signal često mora preći dužu putanju i pri tome značajno gubi energiju usljed višestrukih refleksija i apsorpcije. AP ima konstantnu poziciju, dok STA mijenja svoju poziciju u skladu sa Random Walk modelom. 
 
+Zbog velikog obima podataka jer sama simulacija traje 200 s, isprva je analiziran interval 0–50 s, ali bez prepoznatljivih obrazaca. Tek u intervalu 70–100 s uočena je putanja koja odgovara referentnom radu, što je omogućilo validno poređenje rezultata. Grafovi su generisani u MATLAB-u. Budući da referentni rad ne navodi konkretan vremenski interval ni detalje generisanja grafova, reproduciranje rezultata bilo bi teško bez pažljive analize i prepoznavanja obrazaca u podacima, što ukazuje na značaj metodološke transparentnosti. Na narednim slikama prikazani su uporedni rezultati referentnog rada i simulacije provedene u okviru ovog projekta.
+
 
 <p align="center">
 <img src="Slike/indoor_Uporedni_prikaz.jpg" ">
 <br>
-Slika 2: Uporedni prikaz putanje kretanja STA uređaja za interval 70 - 100s
+Slika 2: Uporedni prikaz putanje kretanja STA uređaja za interval 70 - 100 s
 </p>
 
 <p align="center">
 <img src="Slike/rxoverdistance_uporedni_prikaz.png" ">
 <br>
-Slika 3: Uporedni prikaz prijemne snage u funkciji udaljenosti za interval 70 - 100s
+Slika 3: Uporedni prikaz prijemne snage u funkciji udaljenosti za interval 70 - 100 s
 </p>
 
 <p align="center">
 <img src="Slike/rxovertime_uporedni_prikaz.png" ">
 <br>
-Slika 4: Uporedni prikaz prijemne snage u funkciji vremena za interval 70 - 100s
+Slika 4: Uporedni prikaz prijemne snage u funkciji vremena za interval 70 - 100 s
 </p>
 
 ## Outdoor scenario
