@@ -27,3 +27,16 @@ Autori rada integrisali su Sionna RT, biblioteku za ray tracing simulaciju elekt
 <br>
 Slika 1: Arhitektura NS3Sionna
 </p>
+
+## Indoor scenario
+ChatGPT said:
+Indoor scenarij prikazuje WiFi komunikaciju kroz dvoje otvorenih vrata između dvije sobe, pri čemu signal s pristupne tačke u lijevoj sobi mora proći kroz vrata i reflektovati se kako bi stigao do uređaja bez direktne vidljivosti, uz gubitke zbog refleksije i apsorpcije.
+
+*Konceptualna shema NS3Sionna sistema je prikazana na slici 1 :*
+
+<p align="center">
+<img src="Slike/arhitektura.jpg" ">
+<br>
+Slika 1: Indoor scenario
+</p>
+
