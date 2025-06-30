@@ -7,3 +7,11 @@ koje su ključne za testiranje i validaciju bežičnih mrežnih protokola i arhi
 okruženja, što dovodi do nerealnih i neupotrebljivih simulacija. Nemogućnost izvođenja vjerodostojnih simulacija za potrebe testiranja protokola indirektno ugrožava kvalitetu usluge (eng.
 Quality of Service – QoS), koja podrazumijeva zagarantovane mrežne performanse. Tu na scenu
 stupaju realistični modeli kanala i propagacije signala, a jedan od takvih je i ray tracing model.
+
+## Postavka okružeja
+
+Tradicionalni modeli u ns-3 simulatoru, kao što su Friisov model ili log-normal fading model, karakterišu se korištenjem pojednostavljenih matematičkih pristupa koji zanemaruju fizičke prepreke u prostoru (kao što su zidovi, namještaj ili zgrade), što često dovodi do nerealnih rezultata, naročito u zatvorenim i složenim okruženjima.
+
+U radu predstavljen je softverski dodatak za ns-3 pod nazivom Ns3Sionna, koji omogućava realističnije simulacije bežičnih mreža korištenjem naprednog ray tracing modela za propagaciju signala.
+
+Autori rada integrisali su Sionna RT, biblioteku za ray tracing simulaciju elektromagnetnih talasa u trodimenzionalnom prostoru. Ova biblioteka omogućava detaljnu analizu načina na koji se signal reflektuje, raspršuje i apsorbuje u zavisnosti od materijala i geometrije prepreka u okruženju. Na osnovu izračunatih putanja talasa dobijaju se podaci o impulsnom odzivu kanala, koji se dalje koriste za izračunavanje frekvencijskog odziva kanala, gubitka jačine signala (path loss) i kašnjenja signala.
