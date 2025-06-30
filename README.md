@@ -50,7 +50,9 @@ Slika 4: Uporedni prikaz prijemne snage u funkciji vremena za interval 70 - 100 
 
 ## Outdoor scenario
 
-Outdoor scenarij prikazuje WiFi komunikaciju u realističnom urbanom okruženju oko crkve Frauenkirche u Minhenu, gdje se klijentski uređaj nasumično kreće, a pristupna tačka je statična. Signal se često reflektuje od zgrada zbog nedostatka direktne vidljivosti, što uzrokuje povećano kašnjenje i gubitke.
+Ovaj scenarij simulacije obuhvata jednu pristupnu tačku (AP) i jedan mobilni klijentski uređaj (STA), smještene unutar realističnog outdoor 3D okruženja u okolini crkve Frauenkirche u Minhenu. U ovom scenariju STA se kreće prema Random Walk modelu, unutar radijusa od 50 metara, dok AP ostaje statičan na unaprijed definisanoj poziciji. Zbog urbanog okruženja i čestih prepreka, klijentski uređaj se nerijetko nalazi u uslovima bez direktne vidljivosti (NLoS), pri čemu signal mora prolaziti kroz uske prolaze, reflektovati se od zidove zgrada i apsorbovati na različitim materijalima što uzrokuje višestruke refleksije i povećava ukupno kašnjenje i gubitak signala.
+
+Iako simulacija traje 300 sekundi, u 70-oj sekundi dolazi do prekida zbog greške Sionna servera koja ukazuje na nemogućnost pronalaska propagacione putanje. Do toga dolazi kada se čvor nalazi izvan granica 3D scene ili preblizu drugom čvoru. U modelima sa mobilnošću, kao što je Random Walk, ova greška se najčešće javlja kada se čvor udalji izvan definisanog okruženja usljed nedostatka ograničenja kretanja. Iz ovog razloga, svi rezultati prikazani u nastavku prikupljeni su na intervalu 0 - 70 s.
 
 <p align="center">
 <img src="Slike/outdoorrxovertime_uporedni_prikaz.jpg" ">
