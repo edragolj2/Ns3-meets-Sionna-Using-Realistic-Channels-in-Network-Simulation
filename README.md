@@ -76,12 +76,15 @@ Slika 7: Uporedni prikaz prijemne snage u funkciji vremena za interval 0 - 70 s
 
 ## Kreiranje nove scene
 Za potrebe izvođenja realističnih simulacija, neophodno je kreirati detaljan 3D model okruženja, uključujući dodjelu materijala objektima prema njihovim elektromagnetnim karakteristikama. Blender, kao moćan open-source alat za 3D modeliranje, omogućava kreiranje i izvoz realističnih scena u formatima pogodnim za simulacione alate poput ns-3. Tako se omogućava izvođenje simulacija u realnim okruženjima, uz precizno pozicioniranje mrežnih čvorova i realističan prikaz prepreka. U ovom radu, nova korisnička scena je kreirana izmjenom postojeće „2 rooms 1 door“ scene, dodavanjem još jednih vrata pomoću alata Blender, čime je formirana scena „2 rooms 2 door“.
+## Rezultati dobijene simulacije
+Analizom dobijenih rezultata uočene su greške za koje se pretpostavlja da potiču iz problema u definiciji geometrije same scene u Blenderu. Nažalost, zbog vremenskih ograničenja, tim nije bio u mogućnosti izvršiti dodatne iteracije simulacije niti detaljno analizirati i otkloniti uzrok problema. Ipak, ovaj dio rada pokazao je potencijal za dalji razvoj i istraživanje u smjeru integracije vlastitih 3D modela u simulaciono okruženje.
 
 <p align="center">
-<img src="Slike" ">
+<img src="Slike/" ">
 <br>
-Slika 8: Prikaz novog modela u Blender - u
+Slika 8: Prikaz kretanja simulacije
 </p>
+
 
 ## Zaključak
 
