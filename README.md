@@ -9,13 +9,7 @@ Ovaj rad predstavlja nastavak i praktičnu primjenu prethodno razrađenih teorij
 
 Tradicionalni modeli u ns-3 simulatoru, kao što su Friisov model ili log-normal fading model, karakterišu se korištenjem pojednostavljenih matematičkih pristupa koji zanemaruju fizičke prepreke u prostoru (kao što su zidovi, namještaj ili zgrade), što često dovodi do nerealnih rezultata, naročito u zatvorenim i složenim okruženjima.
 
-U radu predstavljen je softverski dodatak za ns-3 pod nazivom Ns3Sionna, koji omogućava realističnije simulacije bežičnih mreža korištenjem naprednog ray tracing modela za propagaciju signala.
-
-Autori rada integrisali su Sionna RT, biblioteku za ray tracing simulaciju elektromagnetnih talasa u trodimenzionalnom prostoru. Ova biblioteka omogućava detaljnu analizu načina na koji se signal reflektuje, raspršuje i apsorbuje u zavisnosti od materijala i geometrije prepreka u okruženju. Na osnovu izračunatih putanja talasa dobijaju se podaci o impulsnom odzivu kanala, koji se dalje koriste za izračunavanje frekvencijskog odziva kanala, gubitka jačine signala (path loss) i kašnjenja signala.
-
-## Arhitektura NS3Sionna
-
-
+U radu predstavljen je softverski dodatak za ns-3 pod nazivom Ns3Sionna, koji omogućava realističnije simulacije bežičnih mreža korištenjem naprednog ray tracing modela za propagaciju signala. Integrisali su Sionna RT, biblioteku za ray tracing simulaciju elektromagnetnih talasa u trodimenzionalnom prostoru. Ova biblioteka omogućava detaljnu analizu načina na koji se signal reflektuje, raspršuje i apsorbuje u zavisnosti od materijala i geometrije prepreka u okruženju. Na osnovu izračunatih putanja talasa dobijaju se podaci o impulsnom odzivu kanala, koji se dalje koriste za izračunavanje frekvencijskog odziva kanala, gubitka jačine signala (path loss) i kašnjenja signala.
 
 *Konceptualna shema NS3Sionna sistema je prikazana na slici 1 :*
 
@@ -24,6 +18,10 @@ Autori rada integrisali su Sionna RT, biblioteku za ray tracing simulaciju elekt
 <br>
 Slika 1: Arhitektura NS3Sionna
 </p>
+
+Praktični dio realizovan je na virtuelnoj mašini s resursima: 16 CPU jezgri, 32 GB RAM i 64 GB prostora, što je timu omogućilo zajedničko razvojno okruženje. Prvi korak bio je integracija ns-3 simulatora s bibliotekom Sionna za izvođenje simulacija realističnih kanala fizičkog sloja, prateći uputstva iz GitHub repozitorija ns3sionna. Instalacija je obuhvatila preuzimanje ns-3 paketa, kloniranje repozitorija, instalaciju zavisnosti, konfiguraciju i pokretanje Sionna servera u Python virtualnom okruženju. Simulacije su pokretane više puta radi provjere konzistentnosti rezultata, uz obaveznu prethodnu aktivaciju Sionna servera za svako izvođenje.
+
+Detaljne upute za integraciju ns-3 i Sionna dostupne su u [GitHub repozitoriju autora](https://github.com/tkn-tub/ns3sionna?tab=readme-ov-file). 
 
 ## Indoor scenario
 
