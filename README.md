@@ -49,3 +49,17 @@ Outdoor scenarij prikazuje WiFi komunikaciju u realističnom urbanom okruženju 
 <br>
 Slika 3: Outdoor scenario
 </p>
+
+## Zaključak
+
+U ovom radu uspješno je realizovana integracija Sionna biblioteke s ns-3 simulatorom korišćenjem Ns3Sionna modula, čime je omogućeno izvođenje simulacija sa realističnim 3D kanalnim modelima. Simulacije u različitim scenarijima (indoor i outdoor) i evaluacija performansi sistema kroz variranje parametara potvrdile su da ova integracija omogućava znatno realističniju analizu u poređenju s tradicionalnim modelima propagacije.
+
+Rezultati su pokazali visoku podudarnost sa referentnim radom, potvrđujući ispravnost konfiguracije i tačnost dobijenih rezultata. Mehanizmi poput keširanja i paralelnih proračuna pokazali su se ključnim za efikasnost, posebno u mrežama sa velikim brojem uređaja.
+
+Dodatni doprinos rada ogleda se u kreiranju nove scene i izvođenju simulacija u korisnički definisanom okruženju, čime je potvrđena fleksibilnost pristupa i njegova primjenjivost u različitim scenarijima, uključujući buduće 6G sisteme.
+
+Važno je naglasiti da ovakve simulacije zahtijevaju značajne hardverske resurse, naročito u scenarijima sa velikim brojem čvorova i visokom mobilnošću, zbog čestih i složenih proračuna kanala. Zbog toga pojedine simulacije nisu mogle biti završene, jer bi trajale predugo čak i na naprednim virtuelnim mašinama, što ukazuje na potrebu za dodatnim optimizacijama ili snažnijim resursima.
+
+Zaključno, rad pokazuje da integracija ns-3 i Sionna biblioteke otvara nove mogućnosti za detaljnije i realističnije analize u istraživanju savremenih komunikacionih sistema.
+
+
