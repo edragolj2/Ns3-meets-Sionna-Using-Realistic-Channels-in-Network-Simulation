@@ -74,6 +74,15 @@ Slika 6: Uporedni prikaz prijemne snage u funkciji udaljenosti za interval 0 - 7
 Slika 7: Uporedni prikaz prijemne snage u funkciji vremena za interval 0 - 70 s
 </p>
 
+## Kreiranje nove scene
+Za potrebe izvođenja realističnih simulacija, neophodno je kreirati detaljan 3D model okruženja, uključujući dodjelu materijala objektima prema njihovim elektromagnetnim karakteristikama. Blender, kao moćan open-source alat za 3D modeliranje, omogućava kreiranje i izvoz realističnih scena u formatima pogodnim za simulacione alate poput ns-3. Tako se omogućava izvođenje simulacija u realnim okruženjima, uz precizno pozicioniranje mrežnih čvorova i realističan prikaz prepreka. U ovom radu, nova korisnička scena je kreirana izmjenom postojeće „2 rooms 1 door“ scene, dodavanjem još jednih vrata pomoću alata Blender, čime je formirana scena „2 rooms 2 door“.
+
+<p align="center">
+<img src="Slike" ">
+<br>
+Slika 8: Prikaz novog modela u Blender - u
+</p>
+
 ## Zaključak
 
 U ovom radu uspješno je realizovana integracija Sionna biblioteke s ns-3 simulatorom korištenjem Ns3Sionna modula, čime je omogućeno izvođenje simulacija sa realističnim 3D kanalnim modelima. Simulacije u različitim scenarijima (indoor i outdoor) i evaluacija performansi sistema kroz variranje parametara potvrdile su da ova integracija omogućava znatno realističniju analizu u poređenju s tradicionalnim modelima propagacije.
