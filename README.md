@@ -23,7 +23,7 @@ Autori rada integrisali su Sionna RT, biblioteku za ray tracing simulaciju elekt
 *Konceptualna shema NS3Sionna sistema je prikazana na slici 1 :*
 
 <p align="center">
-<img src="Slike/arhitektura" ">
+<img src="Slike/arhitektura.jpg" ">
 <br>
 Slika 1: Arhitektura NS3Sionna
 </p>
