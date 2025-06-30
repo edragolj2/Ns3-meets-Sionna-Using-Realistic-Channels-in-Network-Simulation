@@ -35,13 +35,13 @@ Slika 2: Uporedni prikaz putanje kretanja STA uređaja za interval 70 - 100s
 </p>
 
 <p align="center">
-<img src="Slike/rxoverdistance_uporedni_prikaz.jpg" ">
+<img src="Slike/rxoverdistance_uporedni_prikaz.png" ">
 <br>
 Slika 3: Uporedni prikaz prijemne snage u funkciji udaljenosti za interval 70 - 100s
 </p>
 
 <p align="center">
-<img src="Slike/rxovertime_uporedni_prikaz.jpg" ">
+<img src="Slike/rxovertime_uporedni_prikaz.png" ">
 <br>
 Slika 4: Uporedni prikaz prijemne snage u funkciji vremena za interval 70 - 100s
 </p>
